@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(222, 231, 255);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 15px;
+}
+
+.pattern-background {
+ width: 100%;
+}
+
+header {
+  font-size: 25px;
+}
+
+.aside {
+  position: relative;
+  border-radius: 20px;
+}
+
+.container {
+  width: 370px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 20px;
+}
+
+.info {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 45px;
+  text-align: center;
+}
+
+.info h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.illustration-hero {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.middle-part {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: rgb(246, 246, 246);
+  padding: 3px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.middle-part p {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.annual-plan-paragraph {
+  font-weight: 600;
+}
+
+.icon-music {
+  object-fit: contain;
+}
+
+.change-button {
+  display: flex;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 10px;
+  color: rgb(7, 36, 253);
+}
+
+.bottom-part button {
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.payment-button {
+  background-color: rgb(64, 0, 255);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.15)
+}
+
+.cancel-order-button {
+  background: none;
+  color: gray;
+  border: none;
+  font-weight: 600;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 510px) {
+  .container {
+    width: 370px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+  }
+}
