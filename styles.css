@@ -1,5 +1,7 @@
 body {
   background-color: rgb(222, 231, 255);
+  background: url(images/pattern-background-desktop.svg)
+    rgb(222, 231, 255); background-repeat: repeat-x;
   font-family: 'Red Hat Display', sans-serif;
   font-size: 15px;
 }
